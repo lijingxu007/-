@@ -7,11 +7,11 @@
 		"minified": true,
 		"newFeature": true
 	},
-  "cloudfunctionRoot":"function",
+	"cloudfunctionRoot": "function/",
 	"compileType": "miniprogram",
 	"libVersion": "1.9.91",
 	"appid": "wx1779be0925c78d99",
-	"projectname": "121",
+	"projectname": "%E6%A1%86%E6%9E%B6",
 	"isGameTourist": false,
 	"condition": {
 		"search": {
