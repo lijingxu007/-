@@ -1,0 +1,10 @@
+/* components/banner/banner.wxss */
+swiper {
+  height: 300rpx;
+}
+.slide-image{
+  display: block;
+  width:100%;
+  height:300rpx;
+  background: #eee;
+}

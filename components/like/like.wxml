@@ -1,0 +1,19 @@
+<view>
+  <view class="perfect">猜你喜欢</view>
+  <view class='like'>
+    <block wx:for='{{like}}' wx:key='id'>
+      <view class="like-li">
+        <navigator wx:if="{{item.type == 'wxApp'}}" data-index="{{index}}" target="miniProgram" open-type="navigate" app-id="{{item.appid}}" path="{{item.path}}">
+          <image src="{{item.img}}"></image>
+          <view class="title">{{item.name}}</view>
+          <view class="desc">{{item.description}}</view>
+        </navigator>
+        <navigator wx:if='{{item.type == "inner"}}' data-index="{{index}}" url="{{item.path}}" hover-class="navigator-hover">
+          <image src="{{item.img}}"></image>
+          <view class="title">{{item.name}}</view>
+          <view class="desc">{{item.description}}</view>
+        </navigator>
+      </view>
+    </block>
+  </view>
+</view>

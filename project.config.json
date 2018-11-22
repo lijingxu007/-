@@ -1,0 +1,63 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+  "cloudfunctionRoot":"function",
+	"compileType": "miniprogram",
+	"libVersion": "1.9.91",
+	"appid": "wx1779be0925c78d99",
+	"projectname": "121",
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 0,
+			"list": [
+				{
+					"id": 0,
+					"name": "detail",
+					"pathName": "pages/index/index",
+					"query": "jj=1"
+				},
+				{
+					"id": 1,
+					"name": "detail-share",
+					"pathName": "pages/detail/detail",
+					"query": "wid=139&fid=051AF563-F839-70C2-A35B-6C223AC6021E"
+				},
+				{
+					"id": 2,
+					"name": "send",
+					"pathName": "pages/index/index",
+					"query": "jj=1"
+				},
+				{
+					"id": 3,
+					"name": "spread",
+					"pathName": "pages/poster/poster",
+					"query": ""
+				}
+			]
+		}
+	}
+}
