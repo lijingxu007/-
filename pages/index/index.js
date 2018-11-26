@@ -13,9 +13,9 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    // sqlAdd({coll:"test",body:{"name":"ljx"}}).then(res=>{
-    //   console.log(res)
-    // })
+    sqlAdd({coll:"test",body:{"name":"ljx"}}).then(res=>{
+      console.log(res)
+    })
     // sqlWhere({ coll: "test", body: { "_id":"W_ZOpJSXoyWmbZSo"}}).then(res=>{
     //   console.log(res)
     // })

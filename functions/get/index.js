@@ -7,7 +7,12 @@ cloud.init()
 // 云函数入口函数
 exports.main = async (event, context) => {
   const app = new TcbRouter({ event });
-
+  //app.use 应用于所有路由的中间件
+  app.use(async (ctx, next) => {
+    ctx.data = {};
+    await next(); // 执行下一中间件
+  });
+  
   app.router('audio/list', async (ctx) => {
     var options = {
       uri: 'http://v.juhe.cn/historyWeather/province',
